@@ -1,5 +1,5 @@
 package practice3_Q;
-
+/*Chapter 3-8 개인 정답 */
 public class Exercise3_8 {
 
 	public static void main(String[] args) {

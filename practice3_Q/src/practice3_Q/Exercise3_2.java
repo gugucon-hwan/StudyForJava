@@ -1,10 +1,10 @@
 package practice3_Q;
-
+/*Chapter 3-2 ê°œì¸ ì •ë‹µ */
 public class Exercise3_2 {
 	public static void main(String[] args) {
-		int numOfApples = 123; // »ç°úÀÇ °³¼ö
-		int sizeOfBucket = 10; // ¹Ù±¸´ÏÀÇ Å©±â(¹Ù±¸´Ï¿¡ ´ãÀ» ¼ö ÀÖ´Â »ç°úÀÇ °³¼ö)
-		int numOfBucket = (int)Math.ceil((float)numOfApples/sizeOfBucket); // ¸ğµç »ç°ú¸¦ ´ã´Âµ¥ ÇÊ¿äÇÑ ¹Ù±¸´ÏÀÇ ¼ö
-		System.out.println("ÇÊ¿äÇÑ ¹Ù±¸´ÏÀÇ ¼ö :"+numOfBucket);
+		int numOfApples = 123; // ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+		int sizeOfBucket = 10; // ï¿½Ù±ï¿½ï¿½ï¿½ï¿½ï¿½ Å©ï¿½ï¿½(ï¿½Ù±ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½)
+		int numOfBucket = (int)Math.ceil((float)numOfApples/sizeOfBucket); // ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Âµï¿½ ï¿½Ê¿ï¿½ï¿½ï¿½ ï¿½Ù±ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
+		System.out.println("ï¿½Ê¿ï¿½ï¿½ï¿½ ï¿½Ù±ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ :"+numOfBucket);
 		}
 }

@@ -1,5 +1,5 @@
 package practice4_Q;
-
+/*Chapter 4-5 개인 정답 */
 public class Practice4_5 {
 
 	public static void main(String[] args) {
@@ -7,7 +7,7 @@ public class Practice4_5 {
 		int i = 1; 
 		while (i <= 10) {
 			int j = 1;
-			System.out.print(i+"��°�� : ");
+			System.out.print(i+"번째줄 : ");
 			while (j <= i) {				
 				System.out.print("*");
 				j++;

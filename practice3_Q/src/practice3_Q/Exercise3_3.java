@@ -1,10 +1,10 @@
 package practice3_Q;
-
+/*Chapter 3-3 ê°œì¸ ì •ë‹µ */
 public class Exercise3_3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int num = 10;
-		System.out.println( num>0?"¾ç¼ö":(num==0?"0":"À½¼ö" ));
+		System.out.println( num>0?"ï¿½ï¿½ï¿½":(num==0?"0":"ï¿½ï¿½ï¿½ï¿½" ));
 	}
 }
