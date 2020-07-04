@@ -1,5 +1,5 @@
 package practice3_Q;
-/*Chapter 3-2 개인 정답 */
+/*Chapter 3-2 자바의 정석 개인 정답 */
 public class Exercise3_2 {
 	public static void main(String[] args) {
 		int numOfApples = 123; // ����� ����

@@ -1,5 +1,5 @@
 package practice3_Q;
-/*Chapter 3-1 개인 정답 */
+/*Chapter 3-1 자바의 정석 개인 정답 */
 public class Exercise3_1 {
 
 	public static void main(String[] args) {

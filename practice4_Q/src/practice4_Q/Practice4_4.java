@@ -1,5 +1,5 @@
 package practice4_Q;
-/*Chapter 4-4 개인 정답 */
+/*Chapter 4-4 자바의 정석 개인 정답 */
 public class Practice4_4 {
 
 	public static void main(String[] args) {
