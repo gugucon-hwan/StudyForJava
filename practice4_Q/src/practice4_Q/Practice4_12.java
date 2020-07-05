@@ -16,7 +16,7 @@ public class Practice4_12 {
 			temp1++;//곱하는 숫자
 			if(temp1>3) { //곱하는 숫자가 3이면
 				temp1=1;//곱하는 숫자 초기화
-				temp3=temp2;
+				temp3=temp2;//다음 가로 구구단 단계로 초기화
 				System.out.printf("\n\n");
 				continue;
 			}			
