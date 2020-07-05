@@ -16,10 +16,20 @@ public class Practice5_7 {
 		int[] coin = { 5, 5, 5, 5 }; // 단위별 동전의 개수
 		for (int i = 0; i < coinUnit.length; i++) {
 			int coinNum = 0;
+			
+			coinNum=money/coinUnit[i];
+			if(coin[i]>=coinNum) {
+				coin[i]-=coinNum;
+			}else {			
+				coinNum=coin[i];
+				coin[i]=0;
+			}
+			money=money-(coinNum*coinUnit[i]);
 			/*
-			 * (1) 아래의 로직에 맞게 코드를 작성하시오. 1. 금액(money)을 동전단위로 나눠서 필요한 동전의 개수(coinNum)를 구한다.
-			 * 2. 배열 coin에서 coinNum만큼의 동전을 뺀다. (만일 충분한 동전이 없다면 배열 coin에 있는 만큼만 뺀다.) 3. 금액에서
-			 * 동전의 개수(coinNum)와 동전단위를 곱한 값을 뺀다.
+			 * (1) 아래의 로직에 맞게 코드를 작성하시오. 
+			 * 1. 금액(money)을 동전단위로 나눠서 필요한 동전의 개수(coinNum)를 구한다.
+			 * 2. 배열 coin에서 coinNum만큼의 동전을 뺀다. (만일 충분한 동전이 없다면 배열 coin에 있는 만큼만 뺀다.) 
+			 * 3. 금액에서 * 동전의 개수(coinNum)와 동전단위를 곱한 값을 뺀다.
 			 */
 			System.out.println(coinUnit[i] + "원: " + coinNum);
 		}
