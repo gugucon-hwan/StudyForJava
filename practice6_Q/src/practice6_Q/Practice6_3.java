@@ -20,7 +20,7 @@ public class Practice6_3 {
 
 }
 
-class Student{
+class Student1{
 	String name;//학생이름
 	int ban;		//반
 	int no;		//번호
