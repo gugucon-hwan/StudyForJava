@@ -16,7 +16,8 @@ public class Practice6_1 {
 
 }
 
-class SutdaCard{
+//다른 문제 풀기 위해서 잠시 클래스명을 조금 바꿈 
+class SutdaCard1{
 	int num;
 	boolean isKwang;
 }
