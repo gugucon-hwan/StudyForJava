@@ -50,8 +50,8 @@ public class Practice9_14 {
 				String phoneNum=phoneNumArr[i];
 				String tmp=phoneNum.replace("-", "");// phoneNum에서 '-'를 제거
 				
-				Matcher m= p.matcher(tmp);// 패턴과 일치하면, list에 phoneNum을 추가한다.
-				if(m.find()) {
+				Matcher m= p.matcher(tmp);
+				if(m.find()) {// 패턴과 일치하면, list에 phoneNum을 추가한다.
 					list.add(phoneNum);
 				}
 			}
