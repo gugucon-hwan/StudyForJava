@@ -16,6 +16,16 @@ import java.util.Date;
 2011-01-22 ~ 2010-03-21:0
  */
 public class Practice10_2 {
+	/**
+	  * @Method Name : paycheckCount
+	  * @작성일 : 2020. 8. 26
+	  * @작성자 : gugucon
+	  * @변경이력 : 
+	  * @Method 설명 :
+	  * @param from
+	  * @param to
+	  * @return
+	  */
 	static int paycheckCount(Calendar from, Calendar to) {
 		/*
 		(1) 아래의 로직에 맞게 코드를 작성하시오.
@@ -42,6 +52,24 @@ public class Practice10_2 {
 		return monDiff;
 		}
 	
+	/**
+	  * @Method Name : printResult
+	  * @작성일 : 2020. 8. 26
+	  * @작성자 : gugucon
+	  * @변경이력 : 
+	  * @Method 설명 :
+	  * @param from
+	  * @param to
+	  */
+	/**
+	  * @Method Name : printResult
+	  * @작성일 : 2020. 8. 26
+	  * @작성자 : gugucon
+	  * @변경이력 : 
+	  * @Method 설명 :
+	  * @param from
+	  * @param to
+	  */
 	static void printResult(Calendar from, Calendar to) {
 		Date fromDate = from.getTime();
 		Date toDate = to.getTime();

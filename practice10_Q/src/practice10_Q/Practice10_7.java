@@ -18,6 +18,14 @@ import java.util.Date;
  */
 public class Practice10_7 {
 
+	/**
+	  * @Method Name : main
+	  * @작성일 : 2020. 8. 26
+	  * @작성자 : gugucon
+	  * @변경이력 : 
+	  * @Method 설명 :
+	  * @param args
+	  */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		DateFormat sdf=new SimpleDateFormat("yyyy-MM-dd");

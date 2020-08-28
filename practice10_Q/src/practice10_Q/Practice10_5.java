@@ -27,6 +27,16 @@ public class Practice10_5 {
 	/*
 	 * (1) getDayDiff메서드를 작성하시오.
 	 */
+	/**
+	  * @Method Name : getDayDiff
+	  * @작성일 : 2020. 8. 26
+	  * @작성자 : gugucon
+	  * @변경이력 : 
+	  * @Method 설명 :
+	  * @param yyyymmdd1
+	  * @param yyyymmdd2
+	  * @return
+	  */
 	public static int getDayDiff(String yyyymmdd1, String yyyymmdd2) {
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd");
 		Calendar cal1 = Calendar.getInstance();
