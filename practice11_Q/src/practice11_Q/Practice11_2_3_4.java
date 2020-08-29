@@ -48,7 +48,7 @@ d. 중간에 새로운 요소 추가
   * @변경이력 :
   * @프로그램 설명 : HashSet, TreeSet, Stack 
   */
-public class Practice11_2 {
+public class Practice11_2_3_4 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
