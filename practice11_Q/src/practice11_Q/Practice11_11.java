@@ -9,15 +9,15 @@ import java.util.HashSet;
  * 
  * 
  */
-class SutdaCard {
+class SutdaCard3 {
 	int num;
 	boolean isKwang;
 
-	SutdaCard() {
+	SutdaCard3() {
 		this(1, true);
 	}
 
-	SutdaCard(int num, boolean isKwang) {
+	SutdaCard3(int num, boolean isKwang) {
 		this.num = num;
 		this.isKwang = isKwang;
 	}
@@ -43,7 +43,7 @@ class SutdaCard {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		SutdaCard other = (SutdaCard) obj;
+		SutdaCard3 other = (SutdaCard3) obj;
 		if (isKwang != other.isKwang)
 			return false;
 		if (num != other.num)
@@ -60,9 +60,9 @@ public class Practice11_11 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		SutdaCard c1 = new SutdaCard(3,true);
-		SutdaCard c2 = new SutdaCard(3,true);
-		SutdaCard c3 = new SutdaCard(1,true);
+		SutdaCard3 c1 = new SutdaCard3(3,true);
+		SutdaCard3 c2 = new SutdaCard3(3,true);
+		SutdaCard3 c3 = new SutdaCard3(1,true);
 		HashSet set = new HashSet();
 		set.add(c1);
 		set.add(c2);
